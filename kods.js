@@ -49,7 +49,7 @@ function veidotPlaanu() {
       isPairNumberLocation = (ROW % 2 === 0 && SPOT % 2 == 0) || (ROW % 2 !== 0 && SPOT % 2 !== 0);
     }
 
-    //lokācijas pārbaude, ja vieta aizpildīta paņem citu
+    //lokācijas pārbaude, ja vieta aizpildīta paņem citu  a
     while (attemptsCount > 0 > 0 && notDisabledLocation) {
       //make new numbers
       newNumbers();
